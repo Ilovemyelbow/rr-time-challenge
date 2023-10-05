@@ -15,11 +15,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-         R&R Time Challenge Template 😀
-        </p>
-        <b>{date.toUTCString()}</b>
+       
+       
+        <b>{date.toLocaleTimeString()}</b>
       </header>
+      <body>
+
+      <div className="snow"></div>
+      <div className="dino dino-container">
+           <img src="Images/Dino_1.png" alt="" className="dino" />
+          <img src="Images/Dino_2.png" alt="" className="dino-2" />
+
+      </div>
+   
+      <img src="Images/rainbow-png.webp" alt="" className="rainbow" />
+
+      </body>
     </div>
   );
 }
